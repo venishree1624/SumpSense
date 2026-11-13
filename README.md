@@ -21,6 +21,20 @@ SumpSense is an ESP32-based IoT system designed to monitor sump water levels and
 - Push Button
 - Breadboard and Jumper Wires
 
+## Circuit Connections
+
+| Component | ESP32 GPIO |
+|---|---:|
+| OLED SDA | 13 |
+| OLED SCL | 26 |
+| Ultrasonic TRIG | 27 |
+| Ultrasonic ECHO | 34 |
+| RGB LED Red | 25 |
+| RGB LED Green | 33 |
+| RGB LED Blue | 32 |
+| Buzzer | 14 |
+| Push Button | 35 |
+
 ## Working Principle
 The HC-SR04 ultrasonic sensor measures the distance between the sensor and the water surface. The ESP32 processes the measurement and determines the water level using predefined thresholds.
 
