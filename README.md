@@ -1,6 +1,8 @@
 # SumpSense
 ### IoT-Based Smart Sump Water-Level Monitoring and Early-Warning System
 
+[![Wokwi Simulation](https://img.shields.io/badge/Wokwi-View%20Simulation-blue?logo=wokwi)](https://wokwi.com/projects/479213498247095297)
+
 An ESP32-based embedded IoT system that monitors sump water levels using ultrasonic sensing, provides real-time alerts, and enables remote monitoring through Blynk Cloud.
 
 ## Overview
