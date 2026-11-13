@@ -34,6 +34,13 @@ flowchart TD
     J -->|Remote Mute| I
 ```
 
+## Wokwi Simulation
+
+The SumpSense circuit is also available as a Wokwi simulation for exploring the hardware connections and simulated implementation.
+
+🔗 **[View SumpSense Simulation on Wokwi](https://wokwi.com/projects/479213498247095297)**
+
+
 ## Hardware Components
 
 | Component | Function |
