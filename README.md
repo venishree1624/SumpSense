@@ -45,6 +45,16 @@ The system classifies the water level into three states:
 
 Based on the detected level, the system updates the OLED display, controls the RGB LED, and activates the buzzer when required.
 
+## System Architecture
+
+The SumpSense system follows a simple sensor-to-cloud architecture.
+
+1. **Input:** The HC-SR04 ultrasonic sensor measures the distance between the sensor and the water surface.
+2. **Processing:** The ESP32 processes the sensor readings, calculates the water level and determines the water status using predefined thresholds.
+3. **Local Output:** The OLED displays the readings, while the RGB LED and buzzer provide visual and audible alerts.
+4. **Cloud Communication:** The ESP32 sends water-level data and status information to Blynk Cloud over Wi-Fi.
+5. **Remote Monitoring:** The Blynk dashboard allows users to monitor water levels and remotely control the buzzer mute function.
+
 ## IoT Integration
 The ESP32 communicates with the Blynk IoT platform over Wi-Fi to send water-level readings and system status. The dashboard enables remote monitoring and buzzer control.
 
